@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ritmo — Plataforma de organización del trabajo</title>
+    <meta
+      name="description"
+      content="Ritmo centraliza las tareas de tu equipo y aplica la Matriz de Eisenhower y el Time Blocking para priorizar el trabajo y proteger el descanso."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Work+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!--
+      Formulario oculto solo para que Netlify lo detecte durante el build
+      (Netlify escanea el HTML estático, no el DOM que genera React).
+      El formulario real, visible e interactivo, está en
+      src/components/ContactForm.jsx y usa los mismos nombres de campos.
+    -->
+    <form name="contacto" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="text" name="nombre" />
+      <input type="email" name="correo" />
+      <textarea name="mensaje"></textarea>
+      <input name="bot-field" />
+    </form>
+
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
