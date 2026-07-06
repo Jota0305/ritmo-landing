@@ -39,7 +39,7 @@ export default function Servicio() {
       <p className="eyebrow">Nuestro servicio</p>
       <h2>Una plataforma, tres herramientas de gestión del tiempo</h2>
       <p className="section__lead">
-        Ritmo combina un espacio formal de comunicación y tareas con dos
+        ViveBien combina un espacio formal de comunicación y tareas con dos
         métodos reconocidos de gestión del tiempo: la Matriz de Eisenhower y
         el Time Blocking.
       </p>

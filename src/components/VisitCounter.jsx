@@ -6,14 +6,14 @@ import { Eye } from 'lucide-react'
 // BASE_URL por cualquier otro con la misma forma de API (hit/get) o por un
 // endpoint propio (ver README.md).
 const BASE_URL = 'https://countapi.mileshilliard.com/api/v1'
-const COUNTER_KEY = 'ritmo-landing-comision-regantes-chocope'
+const COUNTER_KEY = 'vivebien-landing-comision-regantes-chocope'
 
 export default function VisitCounter() {
   const [count, setCount] = useState(null)
 
   useEffect(() => {
     // Evita que React StrictMode (desarrollo) duplique el conteo.
-    const alreadyHit = sessionStorage.getItem('ritmo_visit_counted')
+    const alreadyHit = sessionStorage.getItem('vivebien_visit_counted')
 
     const url = alreadyHit
       ? `${BASE_URL}/get/${COUNTER_KEY}`
@@ -24,7 +24,7 @@ export default function VisitCounter() {
       .then((data) => {
         if (typeof data.value !== 'undefined') {
           setCount(data.value)
-          sessionStorage.setItem('ritmo_visit_counted', '1')
+          sessionStorage.setItem('vivebien_visit_counted', '1')
         }
       })
       .catch(() => {

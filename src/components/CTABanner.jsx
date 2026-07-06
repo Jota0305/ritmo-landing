@@ -6,7 +6,7 @@ export default function CTABanner() {
       <div className="cta-banner__inner">
         <p>¿Listo para ordenar el trabajo de tu equipo?</p>
         <a
-          href="https://wa.me/51999999999?text=Hola%2C%20quiero%20más%20información%20sobre%20Ritmo"
+          href="https://wa.me/51999999999?text=Hola%2C%20quiero%20más%20información%20sobre%20ViveBien"
           target="_blank"
           rel="noreferrer"
           className="btn btn--primary btn--lg"

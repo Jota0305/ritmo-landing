@@ -2,12 +2,12 @@
 // dentro de un marco tipo ventana, en lugar de una fotografía de stock.
 export default function ProductVisual() {
   return (
-    <div className="product-visual" role="img" aria-label="Vista del producto Ritmo: tablero de tareas, matriz de priorización y calendario de bloques de tiempo">
+    <div className="product-visual" role="img" aria-label="Vista del producto ViveBien: tablero de tareas, matriz de priorización y calendario de bloques de tiempo">
       <div className="product-visual__bar">
         <span />
         <span />
         <span />
-        <p>app.ritmo.pe</p>
+        <p>app.vivebien.pe</p>
       </div>
 
       <div className="product-visual__grid">

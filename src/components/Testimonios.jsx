@@ -23,7 +23,7 @@ export default function Testimonios() {
   return (
     <section id="testimonios" className="section section--alt">
       <p className="eyebrow">Testimonios</p>
-      <h2>Equipos que ya organizan su trabajo con Ritmo</h2>
+      <h2>Equipos que ya organizan su trabajo con ViveBien</h2>
 
       <div className="grid grid--3">
         {TESTIMONIOS.map((t) => (

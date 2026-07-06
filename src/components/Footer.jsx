@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer__inner">
-        <span className="nav__logo">Ritmo</span>
+        <span className="nav__logo">ViveBien</span>
         <p>Organiza el trabajo, protege el descanso.</p>
 
         <div className="footer__social">
@@ -25,7 +25,7 @@ export default function Footer() {
         <VisitCounter />
 
         <p className="footer__copy">
-          © {new Date().getFullYear()} Ritmo. Todos los derechos reservados.
+          © {new Date().getFullYear()} ViveBien. Todos los derechos reservados.
         </p>
       </div>
     </footer>

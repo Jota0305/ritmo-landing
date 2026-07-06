@@ -7,13 +7,13 @@ export default function Hero() {
         <p className="eyebrow">Plataforma de organización del trabajo</p>
         <h1>Organiza el trabajo. Protege el descanso.</h1>
         <p className="hero__lead">
-          Ritmo centraliza las tareas de tu equipo, prioriza con la Matriz de
+          ViveBien centraliza las tareas de tu equipo, prioriza con la Matriz de
           Eisenhower y organiza el día con Time Blocking, en una sola
           plataforma formal de comunicación y seguimiento.
         </p>
         <div className="hero__actions">
           <a href="#contacto" className="btn btn--primary">
-            Solicitar demostración
+            Comienza el Cambio
           </a>
           <a href="#servicio" className="btn btn--ghost">
             Conocer el servicio

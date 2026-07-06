@@ -15,7 +15,7 @@ export default function Nav() {
     <header className="nav">
       <div className="nav__inner">
         <a href="#top" className="nav__logo">
-          Ritmo
+          ViveBien
         </a>
 
         <nav className="nav__links nav__links--desktop">
@@ -27,7 +27,7 @@ export default function Nav() {
         </nav>
 
         <a href="#contacto" className="btn btn--primary nav__cta">
-          Solicitar demo
+          Comienza el Cambio
         </a>
 
         <button
@@ -48,7 +48,7 @@ export default function Nav() {
             </a>
           ))}
           <a href="#contacto" className="btn btn--primary" onClick={() => setOpen(false)}>
-            Solicitar demo
+            Comienza el Cambio
           </a>
         </nav>
       )}
