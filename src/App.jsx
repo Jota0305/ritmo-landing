@@ -21,9 +21,7 @@ export default function App() {
         <ContactForm />
         <CTABanner />
         <Servicio />
-        <Beneficios />
         <Testimonios />
-        <Cierre />
       </main>
       <Footer />
     </>
