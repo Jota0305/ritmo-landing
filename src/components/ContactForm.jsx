@@ -97,7 +97,7 @@ export default function ContactForm() {
               />
             </label>
             <button type="submit" className="btn btn--primary">
-              Enviar solicitud
+              Comienza el Cambio
             </button>
             {error && (
               <p className="form-error">
