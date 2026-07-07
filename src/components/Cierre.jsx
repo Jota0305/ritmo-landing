@@ -1,7 +1,6 @@
 export default function Cierre() {
   return (
     <section className="section section--sand cierre">
-      
       <h2>Un equipo organizado no necesita depender de mensajes de última hora</h2>
       <p className="section__lead">
         ViveBien no reemplaza a tu equipo: le da la estructura que necesita para

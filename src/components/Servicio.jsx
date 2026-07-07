@@ -1,4 +1,5 @@
 import { LayoutGrid, Grid2x2, CalendarClock } from 'lucide-react'
+import timeBlockingImg from '../assets/servicio-timeblocking.jpeg'
 
 const BOARD = {
   'Por hacer': ['Revisar presupuesto del proyecto', 'Coordinar visita de campo'],
@@ -99,8 +100,12 @@ export default function Servicio() {
             que respeta el horario de descanso del equipo.
           </p>
         </div>
-        <div className="pillar__note">
-          <p>
+        <div className="pillar__image">
+          <img
+            src={timeBlockingImg}
+            alt="Persona organizando su jornada entre el trabajo y su tiempo personal"
+          />
+          <p className="pillar__caption">
             El resultado: menos mensajes informales fuera de horario y más
             claridad sobre qué se está trabajando y cuándo.
           </p>

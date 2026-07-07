@@ -6,6 +6,7 @@ import {
   Focus,
   HeartHandshake,
 } from 'lucide-react'
+import equilibrioImg from '../assets/beneficios-equilibrio.jpeg'
 
 const BENEFICIOS = [
   {
@@ -43,8 +44,16 @@ const BENEFICIOS = [
 export default function Beneficios() {
   return (
     <section id="beneficios" className="section">
-      
-      <h2>Lo que obtiene tu equipo con ViveBien</h2>
+      <div className="beneficios__intro">
+        <div>
+          <h2>Lo que obtiene tu equipo con ViveBien</h2>
+        </div>
+        <img
+          src={equilibrioImg}
+          alt="Persona en equilibrio entre sus tareas laborales y su bienestar"
+          className="beneficios__image"
+        />
+      </div>
 
       <div className="grid grid--3">
         {BENEFICIOS.map(({ icon: Icon, title, desc }) => (

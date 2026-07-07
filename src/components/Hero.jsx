@@ -1,8 +1,9 @@
-import ProductVisual from './ProductVisual.jsx'
+import heroImg from '../assets/hero-central.jpeg'
 
 export default function Hero() {
   return (
-    <section id="top" className="hero" className="section section--alt">
+    <section id="top" className="hero-wrap">
+      <div className="hero">
       <div className="hero__content">
         <p className="eyebrow">Plataforma de organización del trabajo</p>
         <h1>Organiza el trabajo. Protege el descanso.</h1>
@@ -21,6 +22,12 @@ export default function Hero() {
         </div>
       </div>
 
+      <img
+        src={heroImg}
+        alt="Profesional en equilibrio entre el trabajo y el bienestar personal"
+        className="hero__image"
+      />
+      </div>
     </section>
   )
 }

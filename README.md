@@ -93,3 +93,24 @@ Puntos a tener en cuenta:
 - **Imagen central:** una vista simulada del producto (tablero + matriz de
   priorización + calendario de bloques de tiempo) dentro de un marco tipo
   ventana de aplicación.
+
+## Fotos de testimonios
+
+Los testimonios son ficticios (marcadores de posición hasta contar con
+testimonios reales de clientes). Sus "fotos" son avatares generados
+automáticamente con las iniciales del nombre, usando el servicio gratuito
+`ui-avatars.com` (sin registro, sin costo). Esto evita usar fotos de
+personas reales junto a una cita que nunca dijeron.
+
+Cuando tengas testimonios reales, reemplaza en `Testimonios.jsx`:
+- El texto de la cita, nombre y cargo.
+- Opcionalmente, la URL del avatar por la foto real de la persona (debes
+  tener su autorización para publicarla).
+
+## Imágenes del producto
+
+Las 3 imágenes provistas por el cliente están en `src/assets/` y se usan
+en Hero, Servicio (Time Blocking) y Beneficios. Verifica con el cliente que
+tenga los derechos de uso comercial de estas ilustraciones antes de
+publicar el sitio (parecen ilustraciones de un banco de imágenes tipo
+Freepik/Shutterstock).
