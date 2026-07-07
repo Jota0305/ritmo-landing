@@ -2,7 +2,7 @@ import ProductVisual from './ProductVisual.jsx'
 
 export default function Hero() {
   return (
-    <section id="top" className="hero">
+    <section id="top" className="hero" className="section section--alt">
       <div className="hero__content">
         <p className="eyebrow">Plataforma de organización del trabajo</p>
         <h1>Organiza el trabajo. Protege el descanso.</h1>
@@ -21,7 +21,6 @@ export default function Hero() {
         </div>
       </div>
 
-      <ProductVisual />
     </section>
   )
 }

@@ -43,7 +43,7 @@ const BENEFICIOS = [
 export default function Beneficios() {
   return (
     <section id="beneficios" className="section">
-      <p className="eyebrow">Beneficios de la oferta</p>
+      
       <h2>Lo que obtiene tu equipo con ViveBien</h2>
 
       <div className="grid grid--3">

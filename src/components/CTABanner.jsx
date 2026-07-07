@@ -9,9 +9,9 @@ export default function CTABanner() {
           href="https://wa.me/51999999999?text=Hola%2C%20quiero%20más%20información%20sobre%20ViveBien"
           target="_blank"
           rel="noreferrer"
-          className="btn btn--primary btn--lg"
+          
         >
-          Empezar ahora <ArrowRight size={18} />
+          
         </a>
       </div>
     </section>
