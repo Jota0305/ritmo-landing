@@ -30,7 +30,6 @@ export default function ContactForm() {
 
   return (
     <section id="contacto" className="section">
-      <p className="eyebrow">Formulario de contacto</p>
       <h2>Solicita información sobre ViveBien</h2>
       <p className="section__lead">
         Completa el formulario y nuestro equipo se comunicará contigo dentro

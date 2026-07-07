@@ -5,7 +5,6 @@ export default function Hero() {
     <section id="top" className="hero-wrap">
       <div className="hero">
       <div className="hero__content">
-        <p className="eyebrow">Plataforma de organización del trabajo</p>
         <h1>Organiza el trabajo. Protege el descanso.</h1>
         <p className="hero__lead">
           ViveBien centraliza las tareas de tu equipo, prioriza con la Matriz de
