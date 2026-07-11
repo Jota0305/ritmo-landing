@@ -37,6 +37,7 @@ const CUADRANTES = [
 export default function Servicio() {
   return (
     <section id="servicio" className="section section--alt">
+      <p className="eyebrow">Nuestro servicio</p>
       <h2>Una plataforma, tres herramientas de gestión del tiempo</h2>
       <p className="section__lead">
         ViveBien combina un espacio formal de comunicación y tareas con dos

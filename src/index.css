@@ -1,18 +1,18 @@
 /* ===== Tokens ===== */
 :root {
-  --bg: #edf1ea;
+  --bg: #f6f5fc;
   --bg-alt: #ffffff;
-  --bg-sand: #ece4d4;
-  --ink: #26322b;
-  --ink-soft: #55645b;
-  --line: #d9ddd2;
+  --bg-sand: #ffe0d0;
+  --ink: #1e1b34;
+  --ink-soft: #5b5876;
+  --line: #e6e2f5;
 
-  --sage: #6e8567;
-  --sage-dark: #4f6249;
-  --peach: #e8a87c;
-  --lavender: #8577a0;
-  --rose: #d98a85;
-  --sand-deep: #cdbf9e;
+  --sage: #2fd08b;
+  --sage-dark: #6a4fd1;
+  --peach: #ffc857;
+  --lavender: #2fb6e8;
+  --rose: #ff6b6b;
+  --sand-deep: #ffc857;
 
   --font-display: 'Fraunces', serif;
   --font-body: 'Work Sans', sans-serif;
@@ -196,12 +196,18 @@ p {
   gap: 2rem;
 }
 
+.nav__brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-right: auto;
+}
+
 .nav__logo {
   font-family: var(--font-display);
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   font-weight: 600;
   color: var(--sage-dark);
-  margin-right: auto;
 }
 
 .nav__links {
@@ -258,8 +264,38 @@ p {
 }
 
 .hero-wrap {
-  background: var(--bg-alt);
-  border-bottom: 1px solid var(--line);
+  background: linear-gradient(135deg, var(--lavender) 0%, var(--sage-dark) 100%);
+}
+
+.hero-wrap .eyebrow {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.hero-wrap h1,
+.hero-wrap .hero__lead {
+  color: #fff;
+}
+
+.hero-wrap .hero__lead {
+  opacity: 0.92;
+}
+
+.hero-wrap .btn--primary {
+  background: #fff;
+  color: var(--sage-dark);
+}
+
+.hero-wrap .btn--primary:hover {
+  background: var(--bg-sand);
+}
+
+.hero-wrap .btn--ghost {
+  border-color: rgba(255, 255, 255, 0.7);
+  color: #fff;
+}
+
+.hero-wrap .btn--ghost:hover {
+  background: rgba(255, 255, 255, 0.12);
 }
 
 .hero__content {
@@ -587,7 +623,7 @@ p {
   background: var(--lavender);
 }
 .matrix__cell--q4 {
-  background: #8a8171;
+  background: #e8a33d;
 }
 
 .pillar__note {
@@ -793,7 +829,7 @@ p {
 
 /* ===== Footer ===== */
 .footer {
-  background: var(--sage-dark);
+  background: linear-gradient(135deg, var(--sage-dark) 0%, var(--lavender) 100%);
   color: #fff;
 }
 
@@ -802,6 +838,13 @@ p {
   margin: 0 auto;
   padding: 3rem 1.5rem;
   text-align: center;
+}
+
+.footer__brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
 }
 
 .footer .nav__logo {

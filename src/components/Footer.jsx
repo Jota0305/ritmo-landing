@@ -1,5 +1,6 @@
 import { Instagram, Linkedin, Facebook } from 'lucide-react'
 import VisitCounter from './VisitCounter.jsx'
+import Logo from './Logo.jsx'
 
 const REDES = [
   { icon: Instagram, href: 'https://instagram.com/', label: 'Instagram' },
@@ -11,7 +12,10 @@ export default function Footer() {
   return (
     <footer className="footer">
       <div className="footer__inner">
-        <span className="nav__logo">ViveBien</span>
+        <div className="footer__brand">
+          <Logo variant="light" />
+          <span className="nav__logo">ViveBien</span>
+        </div>
         <p>Organiza el trabajo, protege el descanso.</p>
 
         <div className="footer__social">

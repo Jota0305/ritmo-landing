@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
+import Logo from './Logo.jsx'
 
 export default function Nav() {
   const [open, setOpen] = useState(false)
@@ -14,8 +15,9 @@ export default function Nav() {
   return (
     <header className="nav">
       <div className="nav__inner">
-        <a href="#top" className="nav__logo">
-          ViveBien
+        <a href="#top" className="nav__brand">
+          <Logo />
+          <span className="nav__logo">ViveBien</span>
         </a>
 
         <nav className="nav__links nav__links--desktop">
